@@ -1,4 +1,5 @@
 function takeANumber(katzDeliLine, name) {
+<<<<<<< HEAD
   katzDeliLine.push(name);
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 }
@@ -23,4 +24,17 @@ function currentLine(line) {
     numbersandnames.push((i + 1) + ". " + line[i]);
   }
     return "The line is currently: " + numbersandnames.join(', ');
+=======
+katzDeliLine.push(name);
+return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
+}
+
+function nowServing(deliLine) {
+deliLine.push(name);
+return `Currently serving ${deliLine}.`;
+}
+
+function currentLine() {
+  
+>>>>>>> 605c798410d5498173978d8b57cc9168344570ea
 }
