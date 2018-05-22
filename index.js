@@ -1,6 +1,9 @@
 function takeANumber(katzDeliLine, name) {
 <<<<<<< HEAD
   katzDeliLine.push(name);
+  var counter = 1;
+  
+   for (var i = 0; i < rush.length; i++) {
   return `Welcome. You are number ${katzDeliLine.length} in line.`;
 }
 
