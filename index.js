@@ -1,12 +1,9 @@
-function takeANumber(katzDeliLine, name) {
-<<<<<<< HEAD
-  katzDeliLine.push(name);
-  var counter = 1;
-  
-   for (var i = 0; i < rush.length; i++) {
-  return `Welcome. You are number ${katzDeliLine.length} in line.`;
+function takeANumber(katzDeliLine) {
+  var counter = 1; 
+  counter++;
+  katzDeliLine.push(counter);
+  return `Welcome. You are number ${counter} in line.`;
 }
-
 function nowServing(deliLine) {
   if (deliLine.length === 0) {
     return "There is nobody waiting to be served!";
